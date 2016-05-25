@@ -10,12 +10,12 @@ namespace Quiron.LojaVirtual.Dominio.Entidade
     {
         public int ProdutoID { get; set; }
 
-        public string NomeProduto { get; set; }
+        public string Nome { get; set; }
 
         public string Descricao { get; set; }
 
         public decimal Preco { get; set; }
 
-        public string Categoria { get; set; } //TESTE DO GIT
+        public string Categoria { get; set; }
     }
 }
